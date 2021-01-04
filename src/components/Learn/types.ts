@@ -21,4 +21,15 @@ export default () => {
   let varStatusUser: statusUser = 0;
   varStatusUser = 2;
   console.log('varStatusUser 0 | 1 | 2', varStatusUser);
+
+  // Пересечение свойств обьекта:
+  // | - одно из свойств должно быть или оба
+  // & - оба своства должны быть
+  type M = { a: string } | { b: number };
+  const obj: M = { b: 23 };
+  const obj2: M = { a: 'hi', b: 23 };
+  // const obj3: M = { a: 'hi', b: 23, c: 11 }; FAILED
+  console.log('Obj obj: ', obj);
+  console.log('Obj obj2: ', obj2);
+  // console.log('Obj obj3: ', obj3); FAILED
 };
