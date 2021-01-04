@@ -24,4 +24,11 @@ export default class Work extends Person implements IWork, IStudent {
   set setIsStudy(study: boolean) {
     this.isStudy = study;
   }
+
+  public description(): { type: string } | { alive: boolean } {
+    return {
+      type: '',
+      alive: true,
+    };
+  }
 }

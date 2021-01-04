@@ -15,10 +15,5 @@ export default abstract class Person {
     console.log(`Hi all!!! I am ${this.name}`);
   }
 
-  static description(): { type: string } | { alive: boolean } {
-    return {
-      type: 'Humon',
-      alive: true,
-    };
-  }
+  abstract description(): { type: string } | { alive: boolean };
 }

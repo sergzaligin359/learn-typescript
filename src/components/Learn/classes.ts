@@ -19,5 +19,5 @@ export default () => {
 
   ivan.sayHello();
   console.log('Can fly Ivan?', Person.isFly);
-  console.log('Person description: ', Person.description());
+  console.log('Person description: ', Person);
 };
