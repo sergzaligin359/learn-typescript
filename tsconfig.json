@@ -6,9 +6,10 @@
       "strict": true,
       "alwaysStrict": true,
       "noImplicitAny": true,
-      "strictPropertyInitialization": true,
+      "strictPropertyInitialization": false,
       "esModuleInterop": true,
       "types": [],
+      "experimentalDecorators": true
       //"strictNullChecks": true
   },
   "lib": [
