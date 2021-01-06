@@ -3,6 +3,7 @@ import types from './types';
 import arrays from './arrays';
 import classes from './classes';
 import generics from './generics';
+import decorators from './decorators';
 
 export default (): void => {
   console.log('Learn...');
@@ -10,5 +11,6 @@ export default (): void => {
   // types();
   // classes();
   // arrays();
-  generics();
+  // generics();
+  decorators();
 };

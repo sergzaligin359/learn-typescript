@@ -5,8 +5,8 @@
       "sourceMap": true,
       "strict": true,
       "alwaysStrict": true,
-      "noImplicitAny": false,
-      "strictPropertyInitialization": false,
+      "noImplicitAny": true,
+      "strictPropertyInitialization": true,
       "esModuleInterop": true,
       "types": [],
       //"strictNullChecks": true
